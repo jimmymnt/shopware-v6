@@ -1,0 +1,27 @@
+{
+    "name": "bundle-product/bundle-product",
+    "description": "Bundle Products",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "6.5.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "BundleProduct\\BundleProduct",
+        "label": {
+            "de-DE": "Bundle Products",
+            "en-GB": "Bundle Products"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "BundleProduct\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BundleProduct\\Tests\\": "tests/"
+        }
+    }
+}
