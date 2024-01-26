@@ -1,0 +1,27 @@
+{
+    "name": "google-tag-manager/google-tag-manager",
+    "description": "Google Tag Manager",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "6.5.*"
+    },
+    "extra": {
+        "shopware-plugin-class": "GoogleTagManager\\GoogleTagManager",
+        "label": {
+            "de-DE": "Google Tag Manager",
+            "en-GB": "Google Tag Manager"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "GoogleTagManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GoogleTagManager\\Tests\\": "tests/"
+        }
+    }
+}
